@@ -1,6 +1,12 @@
-# my-nuxt-project
+# nuxt-example
 
-> Nuxt.js project
+> An example project built using Nuxt
+
+Why not clone this repo and try it out yourself?
+
+``` bash
+git clone https://github.com/BenShelton/nuxt-example.git
+```
 
 ## Build Setup
 

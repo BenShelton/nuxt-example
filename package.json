@@ -1,7 +1,7 @@
 {
-  "name": "my-nuxt-project",
+  "name": "nuxt-example",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "An example project built using Nuxt",
   "author": "BenShelton <bensheltonjones@gmail.com>",
   "private": true,
   "scripts": {
