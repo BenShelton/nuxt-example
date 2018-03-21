@@ -1,4 +1,8 @@
 module.exports = {
+
+  // toggle SPA mode
+  // mode: 'spa',
+  
   /*
   ** Headers of the page
   */

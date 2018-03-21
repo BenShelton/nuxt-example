@@ -7,17 +7,17 @@ export const state = () => ({
 export const actions = {
 
   // Initial Load Action
-  // load ({ commit }) {
-  //   setTimeout(
-  //     commit,
-  //     1000,
-  //     'update',
-  //     { _id: 1, title: 'Product', price: 99.99 }
-  //   )
-  // }
+  load ({ commit }) {
+    setTimeout(
+      commit,
+      1000,
+      'update',
+      { _id: 1, title: 'Product', price: 99.99 }
+    )
+  },
 
   // Async Load Action
-  load ({ commit }) {
+  loadAsync ({ commit }) {
     return new Promise(resolve => {
       setTimeout(() => {
         commit('update', { _id: 1, title: 'Product', price: 99.99 })

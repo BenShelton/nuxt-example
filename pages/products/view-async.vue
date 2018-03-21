@@ -10,7 +10,7 @@
 import { mapState } from 'vuex'
 export default {
   fetch ({ store }) {
-    return store.dispatch('product/load')
+    return store.dispatch('product/loadAsync')
   },
   computed: {
     ...mapState(['product'])
