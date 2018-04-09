@@ -9,6 +9,10 @@
 <script>
 import { mapState } from 'vuex'
 export default {
+  beforeCreate () {
+    // reset store to demonstrate the delay
+    this.$store.commit('product/reset')
+  },
   created () {
     this.$store.dispatch('product/load')
   },

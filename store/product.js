@@ -30,5 +30,12 @@ export const actions = {
 export const mutations = {
   update (state, product) {
     Object.assign(state, product)
+  },
+  reset (state) {
+    Object.assign(state, {
+      _id: 0,
+      title: 'Unknown',
+      price: 0
+    })
   }
 }
