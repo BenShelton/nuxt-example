@@ -3,6 +3,8 @@ module.exports = {
   // toggle SPA mode
   // mode: 'spa',
   
+  // create extra file for netlify
+  generate: { fallback: true },
   /*
   ** Headers of the page
   */
