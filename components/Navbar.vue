@@ -31,6 +31,7 @@ export default {
         { to: '/categories/2/products/someproduct', name: 'Invalid Route Param' },
         { to: '/products/view', name: 'Vuex Store Example' },
         { to: '/admin', name: 'Admin Layout' },
+        { to: '/plugin', name: 'Vue-Notifications Plugin' },
         { to: '/products/view-async', name: 'Async Fetch Example' }
       ]
     }
