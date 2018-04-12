@@ -4,7 +4,7 @@ import VueNotifications from 'vue-notifications'
 function showAlert ({ title, message }) {
   alert(`${title}
   
-  ${message}`)
+${message}`)
 }
 
 Vue.use(VueNotifications, {
