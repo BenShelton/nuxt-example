@@ -2,7 +2,7 @@
 
 > An example project built using Nuxt
 
-Created as a demonstration for this [blog article](https://www.toptal.com/blog)
+Created as a demonstration for this [blog article](http://bit.ly/2J6rvD2)
 
 A static version of the site (made using `nuxt generate` is hosted [here](https://nuxt-example.netlify.com/)
 
